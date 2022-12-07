@@ -1,0 +1,938 @@
+<html lang="en">
+    <head>
+        <title>Mozzarella King</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="behavior.js"></script>
+        <link rel="icon" type="link" href="https://media.istockphoto.com/id/1082045162/vector/fresh-pizza-with-tomato-cheese-olive-sausage-onion.jpg?s=612x612&w=0&k=20&c=zKrpufmfeSaO-oPow80O8fhGRi65KC9ckcbGonlp7Ec=" />
+        
+    </head>
+
+            
+            <body>
+
+                <div style="background-image:url(https://thumbs.dreamstime.com/b/background-pizza-set-delicious-pizzas-bacon-cheese-mushrooms-top-view-183994608.jpg)"> 
+
+                <!–– the menues in the top bar ––>
+            <div class="topnav" id="mytopnav">
+                <a href="#home">Home</a>
+                <a class="active" href="Menu.html">Menu</a>
+                <a href="Buy.html">Buy</a>
+                <a href="javascript:void(0);" class="icon" onclick="myfunction()">
+            </div>
+</a>
+
+
+<br>
+            <br>
+            <br>
+    
+            <center style="font-size: 3.38vw; color: black; text-decoration:underline;" >
+
+                it's Always Pizza O'Clock            </center>
+           <br>
+
+           <a href="https://github.com/PeterWissa" target="_blank">
+            <button class="github">
+                Buy
+              </button>
+
+
+
+
+
+
+
+
+
+           <a>
+
+
+
+
+
+
+
+
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="app-name" content="design_viewer">
+        
+            <meta property="og:site_name" content="MustHaveMenus">
+            <meta property="og:title" content="Delicious Pizza Menu">
+            <meta property="og:description" content="A restaurant design created with MustHaveMenus.">
+            
+            
+            <meta property="og:image:width" content="1024">
+            <meta property="og:image:height" content="1325">
+            <meta property="og:url" content="https://mhme.nu/design/73016533-d576-4657-b6db-788811f67f07">
+            <meta property="og:type" content="website">
+        
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:title" content="Delicious Pizza Menu">
+            <meta name="twitter:description" content="A restaurant design created with MustHaveMenus.">
+            
+            <meta name="twitter:site" content="@musthavemenus">
+            <meta name="twitter:creator" content="@musthavemenus">
+        
+            <meta name="description" content="Delicious Pizza Menu">
+        
+            <link rel="icon" type="image/png" href="https://mhme.nu/image/favicon.png">
+            <link rel="apple-touch-icon" href="https://mhme.nu/image/favicon.png">
+            <link rel="apple-touch-icon" href="https://mhme.nu/image/favicon.png" sizes="152x152">
+            <link rel="apple-touch-icon" href="https://mhme.nu/image/favicon.png" sizes="167x167">
+            <link rel="apple-touch-icon" href="https://mhme.nu/image/favicon.png" sizes="180x180">
+            <link type="text/css" rel="stylesheet" href="./pizzaMenu_files/fonts.css">
+            <link href="./pizzaMenu_files/css" rel="stylesheet">
+            <link href="./pizzaMenu_files/css(1)" rel="stylesheet">
+            <!-- ----------------------------- -->
+        
+            <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+        
+            <!-- Google Tag Manager -->
+            <script type="text/javascript" async="" src="./pizzaMenu_files/analytics.js.download"></script><script type="text/javascript" async="" src="./pizzaMenu_files/js"></script><script type="text/javascript" async="" src="./pizzaMenu_files/bat.js.download"></script><script async="" src="./pizzaMenu_files/gtm.js.download"></script><script>
+                (function(w,d,s,l,i) {
+                    w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+                    var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+                    j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+                    f.parentNode.insertBefore(j,f);
+                })
+                (window,document,'script','dataLayer','GTM-WBJ5CCJ');
+            </script>
+            <!-- End Google Tag Manager -->
+        
+            <!-- Google Analytics -->
+            <script async="" src="./pizzaMenu_files/js(1)"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-MK80C31ZLR');
+            </script>
+            <!-- End Google Analytics -->
+        
+        
+            <script>
+                window.onload = function() {
+                    document.querySelectorAll("div[contenteditable]").forEach(function(el) {
+                        el.removeAttribute("contenteditable");
+                    })
+        
+                    //Responsive Scaling
+                    let content = document.getElementById('content'),
+                    wrapper = document.getElementById('wrapper'),
+                    page = document.getElementsByClassName('page')[0];
+                    let contentWidth  = content.clientWidth,
+                    contentHeight = content.clientHeight,
+                    pageWidth = page.clientWidth,
+                    pageHeight = page.clientHeight;
+        
+                    const ua = window.navigator.userAgent;
+                    const iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
+                    const webkit = !!ua.match(/WebKit/i);
+                    const iOSSafari = iOS && webkit && !ua.match(/CriOS/i);
+        
+                    if (!iOSSafari) {
+                        window.addEventListener("resize", resize);
+                    }
+        
+                    resize();
+        
+                    function resize(){
+                        let scale,
+                        viewWidth = window.innerWidth,
+                        viewHeight = window.innerHeight;
+        
+                        const gutter = 0;
+                        
+                        scale = Math.min(viewWidth / (pageWidth + gutter), viewHeight / (pageHeight + gutter));
+                        content.style.transform = 'scale(' + scale + ')';
+                        wrapper.style.width = contentWidth * scale + 'px';
+                    }
+                }
+        
+            </script>
+        
+            <style>
+                body {
+                    color: #777; 
+                    background-color: #fbfbfb;
+                    margin: 0;
+                }
+        
+                .design-container {
+                    /* width: 400px; */
+                    /* height: 400px; */
+                }
+        
+                .config {
+                    display: none;
+                }
+        
+                .page {
+                    margin: 0 auto 20px auto;
+                }
+        
+                p {
+                    margin: 0;
+                }
+        
+                .menu-object .items {
+                    padding: 1em;
+                }
+        
+                #wrapper {
+                    position: relative;
+                    width: 80vw;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: center;
+        
+                    /* border: 1px solid red; */
+                }
+        
+                #content {
+                    position: relative;
+                    /*width: 100%;
+                    height: 100px;*/
+                    transform-origin: top;
+        
+                    /* border: 1px solid blue; */
+                }
+        
+                .hyperlink a {
+                    text-decoration: none;
+                    color: unset;
+                    display: contents;
+                }
+            </style>
+        <meta http-equiv="origin-trial" content="A751Xsk4ZW3DVQ8WZng2Dk5s3YzAyqncTzgv+VaE6wavgTY0QHkDvUTET1o7HanhuJO8lgv1Vvc88Ij78W1FIAAAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><script type="text/javascript" async="" src="./pizzaMenu_files/f.txt"></script><script src="./pizzaMenu_files/5224653.js.download" type="text/javascript" async="" data-ueto="ueto_1b802d3cea"></script></head>
+        <body data-new-gr-c-s-check-loaded="14.1088.0" data-gr-ext-installed="">
+        
+        
+        
+        <div id="wrapper" style="width: 575.351px;">
+            <!-- <div th:if="${design != null}" class="landing-page"> -->
+                <div class="design-container" id="content" style="transform: scale(0.913255);">
+                    <style></style><style>.svg-content { width: 100%; height: 100%; display: flex; } .page [data-component='text'] { color: #777; }.page .txt { line-height: 1; width: 100%; white-space: normal; word-wrap: normal !important; word-break: break-word !important; }.page .txt p { margin: 0; display: block; white-space: pre-wrap; }.page .txt .case-up { text-transform: uppercase; }.page .txt strong { font-weight: bold; }.page .txt em { font-style: italic; }.page .content .comp, .page .content .image, .page .content .qr, .page .content .group, .page .content .frame, .menu-object { z-index: 1; }.page .txt { line-height: 1; }* { box-sizing: border-box; }[data-component=text] { text-decoration-skip-ink: none; line-height: 1; color: #777; }[data-component=text] .txt { text-decoration: inherit; }.image, .svg-content { display: flex; }.svg-content { width: 100%; height: 100%; }#canvas .page .txt { line-height: 1; width: 100%; white-space: normal; }.menu-object .config { display: none; }.menu-object .items { padding: 1em; }.menu-object .item:last-child { margin-bottom: 0 !important; }.menu-object .item .price-entry { margin-right: .5em; }.menu-object .item .price-entry:last-child { margin-right: 0 !important; }.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }</style><div id="page-1" class="page" data-component="page" data-ratio="0.6140350877192983" data-size="menu-legal" style="position: relative; background: rgb(255, 255, 255); font-size: 10px; width: 630px; height: 1026px; z-index: 1;" data-safe-zone="true"><div class="content" style="overflow: hidden; width: 100%; height: 100%; position: relative;"><div data-component="frame" data-type="frame" data-ratio="0.6140350877192982" class="frame select move locked" style="display: flex; width: 100%; height: 100%; position: absolute; left: auto; top: auto;" id="zmAxDUznKPvp" data-x="39.99804%" data-y="19.88817%" data-full-page="true" data-mstate-locked="{&quot;dragArea&quot;:false,&quot;useResizeObserver&quot;:false,&quot;padding&quot;:{&quot;left&quot;:0,&quot;top&quot;:0,&quot;right&quot;:0,&quot;bottom&quot;:0},&quot;keepRatio&quot;:false,&quot;throttleScale&quot;:0,&quot;throttleDrag&quot;:1,&quot;zoom&quot;:1,&quot;origin&quot;:false,&quot;triggerAblesSimultaneously&quot;:true,&quot;pinchOutside&quot;:false,&quot;hideDefaultLines&quot;:true,&quot;resizable&quot;:{&quot;edge&quot;:[&quot;nw&quot;,&quot;ne&quot;,&quot;n&quot;,&quot;w&quot;,&quot;e&quot;,&quot;sw&quot;,&quot;s&quot;,&quot;se&quot;],&quot;renderDirections&quot;:[&quot;nw&quot;,&quot;ne&quot;,&quot;n&quot;,&quot;w&quot;,&quot;e&quot;,&quot;sw&quot;,&quot;s&quot;,&quot;se&quot;]},&quot;rotatable&quot;:true,&quot;rotationPosition&quot;:&quot;bottom&quot;,&quot;draggable&quot;:true,&quot;edgeDraggable&quot;:false,&quot;snappable&quot;:true,&quot;className&quot;:&quot;original-elem-zmAxDUznKPvp&quot;,&quot;selected&quot;:true,&quot;scalable&quot;:false}" data-mstate-frame-locked="{&quot;translate&quot;:[0,0],&quot;scale&quot;:[1,1],&quot;rotate&quot;:0}"><div class="img" data-original-bg-img="url(&quot;https://mhm-timber.s3.amazonaws.com/public/member/891454/DeliciousPizzaMenuMaria01-oqelx5MI9Yan.jpg&quot;)" style="width: 100%; height: 100%; background: url(&quot;https://mhm-timber.s3.amazonaws.com/public/member/891454/DeliciousPizzaMenuMaria01-oqelx5MI9Yan.jpg&quot;) center center / cover;"></div></div><div data-component="text" class="comp select move" data-font-size="42" style="display: inline-block; margin: 0px; padding: 0px; text-align: center; white-space: nowrap; position: absolute; left: 5.80211%; top: 5.84575%; height: 5.36062%; width: 88.3937%; color: rgb(255, 255, 255);" id="810878110816" data-x="40.7118" data-y="19.9479" data-original-top="80.8125px" data-original-left="49.2656px" data-original-width="612.135" data-original-height="45.5556" data-inch-width="7.74" data-inch-height="0.58" data-px-width="0" data-px-height="0" blk-v="1" inl="1" data-color-text="{&quot;mode&quot;:&quot;solid&quot;,&quot;colors&quot;:[&quot;#ffffff&quot;,&quot;#000000&quot;]}"><div class="txt ql-container ql-disabled" style=""><div class="ql-editor" data-gramm="false"><p style="text-align: left; font-size: 550%; font-family: &quot;Caslon FS&quot;; line-height: 1em; height: 1em;"><span class="case-lw">Mozzarella King</span></p></div><div class="ql-clipboard" tabindex="-1"></div></div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </div><div class="image select move" data-component="illustration" data-id="wvuqHiAcMbck" data-configuration="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" id="UgofJOzTAfrX" style="position: absolute; left: 52.5156%; top: 7.05761%; width: 20.9118%; height: 2.93727%; -webkit-transform: translate(108px, 0.3375px) scale(1, 1) rotate(0deg);" data-ratio="4.3697" data-original-width="20.91179%" data-original-height="2.93727%" data-inch-width="1.83" data-inch-height="0.42" data-original-left="445.898px" data-original-top="70.8516px" data-original-page="page-1" data-original-page-z-index="1" data-original-transform="none" data-mstate="{&quot;translate&quot;:[108,0.3375,0,0],&quot;scale&quot;:[1,1],&quot;rotate&quot;:0}" data-px-width="132" data-px-height="30"><div class="img-wrap"></div><div class="svg-content"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132.088 30.239" width="100%" height="100%" preserveAspectRatio="none">  
+         <g id="Layer_2" data-name="Layer 2"> 
+          <g id="Layer_3" data-name="Layer 3"> 
+           <path d="M119.765,21.205a23.744,23.744,0,0,1-7.552-.995c-1.144-.279-2.224-.859-3.43-1.053a16.44,16.44,0,0,0-4.948.419,1.352,1.352,0,0,0-1.274,1.151c-.421,1.538-.57,3.17-1.536,4.535-1.054,1.49-1.986,3.085-3.834,3.764a3.3,3.3,0,0,1-2.515.042,5.316,5.316,0,0,0-1.831-.055c-3.181-.2-6.339.3-9.511.25a93.852,93.852,0,0,1-11.35-.718A11.5,11.5,0,0,0,70.4,28.5c-3.919.005-7.84-.042-11.757.04-4.788.1-9.575.281-14.364.381a72.488,72.488,0,0,0-7.706.579,27.632,27.632,0,0,1-3.524.2,1.062,1.062,0,0,0-.277.011c-.325.091-.388.788-.89.437a5.926,5.926,0,0,1-1.689-1.419,17.739,17.739,0,0,1-2.868-6.961c-.1-.594-.333-.771-.909-.732-2.171.147-4.345.243-6.514.4a3.625,3.625,0,0,0-1.328.4c-2.365,1.2-4.98,1.337-7.515,1.813a11.974,11.974,0,0,1-8.212-1.62A2.936,2.936,0,0,1,1.8,21.118,9.052,9.052,0,0,1,.008,15.491a25.191,25.191,0,0,1,.254-5.052C.914,7.729,2.647,6.8,5.107,6.215a13.112,13.112,0,0,1,7.641.806A39.292,39.292,0,0,0,26.457,9.085c.853-.006,1.234-.189,1.429-1.073a13.444,13.444,0,0,1,3.262-5.948c.643-.731,1.531-1.15,2.236-1.821C33.77-.124,34.734,0,35.43.14a25.276,25.276,0,0,0,6.937.379C45.249.313,48.15.367,51.034.176c3.336-.22,6.658.335,9.986.086,1.827-.137,3.653.027,5.488-.077a47.294,47.294,0,0,1,5.011.24A19.412,19.412,0,0,0,73.848.371c2.355-.162,4.716.268,7.046.05,3.868-.362,7.715.231,11.569.026A18.811,18.811,0,0,1,98.726,1a10.108,10.108,0,0,0,2.3.821c.106.005.265.2.292.334.276,1.3,1.131,2.406,1.215,3.782.047.768.629,1.407.718,2.195.034.3.246.111.416.106a50.069,50.069,0,0,0,6.047-.862,2.5,2.5,0,0,0,1.214-.44,20.528,20.528,0,0,1,2.954-1.516,4.131,4.131,0,0,1,2.008-.281c2.045-.065,4.066-.4,6.1-.539a18.234,18.234,0,0,1,5.647.209,6.716,6.716,0,0,1,4.353,5.507,15.894,15.894,0,0,1-.268,5.368,5.778,5.778,0,0,1-3.341,3.752A16.752,16.752,0,0,1,119.765,21.205ZM103.682,9.565l-.189-.083-.011.229a5.2,5.2,0,0,1,.276,2.29c-.374,2.167.155,4.394-.589,6.591l1.035-.262a11.16,11.16,0,0,1,7.211.234,22.029,22.029,0,0,0,5.643,1.331,18.174,18.174,0,0,0,10.7-1.487,4.561,4.561,0,0,0,2.768-2.92,15.722,15.722,0,0,0,.3-4.7,5.422,5.422,0,0,0-5.685-5.109c-2.4-.013-4.747.482-7.121.543a11.414,11.414,0,0,0-6.553,1.838,3.3,3.3,0,0,1-1.289.476C108.025,8.971,105.865,9.341,103.682,9.565Zm-3.14-2.753c-.222.493-.606.5-1.009.584-2.977.587-6,.139-9,.507-3.182.391-6.4-.167-9.6-.049-.242.009-.462.008-.492-.275-.038-.362.239-.372.5-.381.745-.025,1.491-.055,2.237-.08,2.147-.073,4.3.28,6.438-.01,3.212-.434,6.447-.259,9.662-.5.428-.032,2.059.634.852-.97-.015-.019,0-.06,0-.091.04-1.653-1.324-2.431-2.332-3.241a5.17,5.17,0,0,0-3-.74c-2.515-.065-5.026.258-7.539.019a15.111,15.111,0,0,0-2.039-.168c-2.288.1-4.562.283-6.868.21-4.583-.144-9.174-.069-13.761-.025A21.755,21.755,0,0,0,61.8,1.447a24.928,24.928,0,0,1-5.131.089A85.216,85.216,0,0,0,44.2,1.694a41.906,41.906,0,0,1-6.426.026c-1.813-.146-3.592-.561-4.862,1.251-.048.069-.164.087-.234.146a8.624,8.624,0,0,0-3.07,4.542,44.936,44.936,0,0,0-.948,7.927,19.053,19.053,0,0,0,.264,5.378c.416,1.88.469,3.853,1.416,5.582.6,1.093,1.407,2.2,2.842,2.041,2.5-.273,5.013-.317,7.514-.6,3.988-.454,8.014-.421,12.019-.53,3.888-.105,7.778-.36,11.672-.243,2.738.082,5.482-.13,8.213.189,2.377.279,4.758.486,7.152.563,5.265.171,10.519-.289,15.785-.229a3.6,3.6,0,0,0,2.909-1.844c1.617-2.549,2.238-5.464,2.858-8.36a7.3,7.3,0,0,0,.2-2.772C101.075,12.164,101.254,9.495,100.542,6.812ZM26.9,20.091c0-.533.035-1.029-.006-1.519a23.783,23.783,0,0,1,.289-7.516c.153-.652.078-.806-.6-.795a35.738,35.738,0,0,1-3.915-.094c-2.066-.192-4.181-.1-6.177-.757C14.53,8.762,12.522,8.251,10.562,7.6c-2.612-.872-5.068-.313-7.536.5a.964.964,0,0,0-.649.476C1.6,10.2.832,11.832,1.146,13.7a17.288,17.288,0,0,1,.136,2.325c.089,2.718,1.138,4.728,3.83,5.819,3.7,1.5,7.3.47,10.85-.346,1.906-.439,3.688-1.372,5.73-1.358C23.416,20.155,25.133,19.657,26.9,20.091Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M87.032,3.987c-1.489-.17-3.138.58-4.867.38C78.389,3.93,74.692,4.98,70.936,5a19.508,19.508,0,0,1-2.323-.066c-3.66-.417-7.324.12-10.995-.141-4.9-.349-9.823-.41-14.735-.6-.247-.009-.64.136-.635-.311s.4-.272.647-.316a14.862,14.862,0,0,1,3.626.1c2.895.193,5.792.1,8.686.192,1.336.041,2.67.144,4,.264a28.5,28.5,0,0,0,5.034-.083c2.213-.193,4.409.257,6.621.179,2.921-.1,5.824-.572,8.734-.606,2.274-.027,4.52-.169,6.776-.386a21.605,21.605,0,0,1,2.7.061c.223.006.473.02.5.3s-.262.374-.442.384C88.51,4.01,87.886,3.987,87.032,3.987Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M47.819,14.9c4.226.17,8.453-.144,12.678-.009.434.014.868.047,1.3.084.246.021.569.038.565.352,0,.347-.337.266-.574.287-1.116.1-2.231.008-3.346.009-3.138,0-6.272.281-9.413.15-1.457-.061-2.915-.107-4.372-.165-.236-.01-.554.036-.558-.319,0-.332.315-.376.548-.38C45.7,14.891,46.762,14.9,47.819,14.9Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M43.75,7.941c-3.577.18-7.13-.4-10.7-.371a3.625,3.625,0,0,1-.651-.006c-.28-.049-.75.421-.81-.189-.044-.436.425-.317.707-.388a11.877,11.877,0,0,1,3.99-.133c3.441.31,6.9,0,10.332.356.518.053,1.406-.132,1.386.488-.017.547-.883.194-1.361.224C45.681,7.984,44.714,7.941,43.75,7.941Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M39.18,24.432a94.572,94.572,0,0,0,9.669-.4,4.026,4.026,0,0,1,.56,0c.2.012.481-.06.505.258.023.294-.247.349-.448.371-1.015.113-2.031.217-3.048.293-4,.3-8,.214-12.008.2-.093,0-.187,0-.28,0-.261.006-.55-.032-.55-.342s.327-.356.562-.363c.808-.023,1.617-.012,2.426-.013Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M59.849,24.4c2.146,0,4.292-.007,6.438.008.236,0,.632-.17.662.274.029.427-.363.359-.614.377a55.478,55.478,0,0,1-5.765.25c-2.016-.063-4.034.1-6.048-.076a9.057,9.057,0,0,1-1.108-.11c-.216-.047-.528-.1-.491-.448.041-.383.357-.269.581-.269C55.619,24.4,57.734,24.406,59.849,24.4Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M94.539,14.613a23.279,23.279,0,0,1,4.546.5,5.227,5.227,0,0,0,1.293-.006.36.36,0,0,1,.418.282c.05.219-.108.342-.3.407a3.94,3.94,0,0,1-2.3.1,22.7,22.7,0,0,0-8.414-.157A15.458,15.458,0,0,1,88.2,15.8c-.189,0-.471.108-.479-.256-.008-.317.262-.325.454-.358.639-.112,1.281-.229,1.927-.278A33.488,33.488,0,0,1,94.539,14.613Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M84.547,21.611c-2.593-.033-4.871-.389-7.161-.6-.273-.024-.654-.062-.626-.407.036-.434.457-.333.746-.307,1.641.146,3.281.3,4.919.471a21.048,21.048,0,0,0,4.915-.138,3.263,3.263,0,0,1,.639-.03.351.351,0,0,1,.366.35c0,.25-.2.248-.4.273A15.147,15.147,0,0,1,84.547,21.611Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M47.457,20.956c-2.247.267-4.445-.369-6.685-.324-.237,0-.55-.016-.551-.356,0-.427.35-.366.618-.348,1.949.134,3.9.249,5.846.427,1.186.109,2.358-.06,3.536-.059.275,0,.741-.189.792.216.064.513-.495.407-.765.423C49.32,20.989,48.388,20.956,47.457,20.956Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M89.292,12.219a3.258,3.258,0,0,1,1.961-.5,46.377,46.377,0,0,0,7.656-.778,3.942,3.942,0,0,1,.828-.019.325.325,0,0,1,.358.341c0,.253-.174.262-.373.293a30.169,30.169,0,0,1-4.094.652C93.517,12.253,91.4,12.219,89.292,12.219Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M91.228,24.586c1.364,0,2.728,0,4.092,0,.272,0,.647-.036.59.376-.045.334-.377.191-.614.2a34.924,34.924,0,0,1-5.712.184c-.534-.072-1.406-.035-1.39-.511.019-.578.815-.173,1.261-.226a15.186,15.186,0,0,1,1.773-.017Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M40.1,12.48a4.25,4.25,0,0,1-2.594.653c-1.645.088-3.3.028-4.948.022-.3,0-.729.034-.718-.376s.448-.333.742-.341c2.083-.057,4.169.095,6.249-.149A5.309,5.309,0,0,1,40.1,12.48Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M60.438,9.36q2.837,0,5.674,0a8.024,8.024,0,0,1,.834.048c.207.023.472.032.422.347-.036.227-.239.242-.435.244-2.543.025-5.086.055-7.628.075-.235,0-.564.038-.553-.32.01-.341.321-.312.568-.314.373,0,.745,0,1.118,0Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M82.243,10.367c-.6-.073-1.432-.159-2.256-.282-.188-.028-.494-.073-.44-.371.045-.249.288-.3.523-.271a14.174,14.174,0,0,0,1.661.165,3.849,3.849,0,0,0,1.821-.262c.283-.15.55-.186.707.139.133.274-.091.474-.266.629C83.546,10.508,82.992,10.347,82.243,10.367Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M63.943,21.413c-1.053,0-2.106,0-3.159,0-.238,0-.55.06-.579-.3-.031-.376.287-.343.524-.341q2.885.029,5.768.076c.166,0,.4-.074.446.194.049.3-.173.375-.4.377-.866.01-1.733,0-2.6,0Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M93.051,3.257c-.408-.067-.74-.118-1.071-.177-.21-.038-.547.128-.531-.3.013-.315.294-.289.486-.3a8.588,8.588,0,0,0,2.1-.136.293.293,0,0,1,.41.25.38.38,0,0,1-.3.413C93.765,3.119,93.37,3.187,93.051,3.257Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+           <path d="M95.045,4.393c-.255-.088-.674,0-.76-.42-.059-.286.2-.377.421-.318.326.09.807.017.9.437C95.688,4.451,95.316,4.373,95.045,4.393Z" fill="#fff" data-custom-color="true" data-config="[{&quot;color&quot;:&quot;#fff&quot;,&quot;rule&quot;:&quot;fill&quot;,&quot;id&quot;:&quot;color-0&quot;,&quot;type&quot;:&quot;attribute&quot;}]" style="fill: rgb(255, 255, 255);"></path> 
+          </g> 
+         </g> 
+        </svg></div></div><div id="iEozDEnkHJqV" data-component="menu-object" class="menu-object select move" data-layout="price-name-left" style="position: absolute; left: 4.81018%; top: 16.5711%; width: 44.2297%; -webkit-transform: translate(0.0795px, 200.362px) scale(1, 1) rotate(0deg); height: 260.688px;" data-original-left="40.8281px" data-original-top="270.562px" data-original-width="616.188" data-original-height="481.083" data-original-page="page-1" data-original-page-z-index="1" data-original-transform="none" data-x="63.1667" data-y="355.521" data-inch-width="3.88" data-inch-height="4.98" data-px-width="279" data-px-height="358" data-mstate="{&quot;translate&quot;:[0.0795,200.362,0,0],&quot;scale&quot;:[1,1],&quot;rotate&quot;:0}"><div class="config">{"styles":{"item":{"margin-bottom":"1.50em","line-height":"1.20em"},"name":{"font-size":"110%","font-family":"Caslon FS","text-transform":"uppercase","margin":"0","line-height":"1.20em","font-weight":"normal","color":"#FFFFFF","letter-spacing":"0.20em"},"description":{"font-size":"110%","font-family":"Caslon FS","margin":"0","line-height":"1.20em","color":"#FFFFFF"},"price":{"font-size":"110%","font-family":"Caslon FS","margin":"0","line-height":"1.20em","font-weight":"normal","color":"#FFFFFF"},"extras":{"font-size":"110%","font-family":"Caslon FS","margin":"0 auto","color":"#FFFFFF","line-height":"1.20em"},"line-height":"1.5em","mo-name":{"color":"#FFFFFF","font-family":"Sacramento","font-size":"320%","font-weight":"normal","text-transform":"none","padding":"0px 10px"},"mo-notes":{"color":"#FFFFFF","font-family":"Caslon FS","font-size":"110%"},"":{"":""},"icon-entry":{"color":"#FFFFFF","fill":"#FFFFFF","display":"inline-block","vertical-align":"text-top","height":"1em","width":"1em"}}}</div>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            <div class="wrapper" style="height: 260.688px; width: 278.646px;"><div class="mo-content"><div class="mo-name">Appetizer</div><div class="items"><div class="item"><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Small Hand-Cut Fries</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="5.50" data-ps="">5.50</span></span>
+                </div><div class="description" style="height: 13.2px; line-height: 13.2px;">With cheese and/or bacon</div><div class="extras"></div></div><div class="item"><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Large Hand-Cut Fries</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="7.50" data-ps="">7.50</span></span>
+                </div><div class="description" style="height: 13.2px; line-height: 13.2px;">With cheese</div><div class="extras"></div></div><div class="item"><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Sweet Potato Fries</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="4.50" data-ps="">4.50</span></span>
+                </div><div class="description" style="height: 13.2px; line-height: 13.2px;">Small, topped with brown sugar</div><div class="extras"></div></div><div class="item"><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Chicken Tenders</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="6.50" data-ps="">6.50</span></span>
+                </div><div class="description"></div><div class="extras"></div></div><div class="item"><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Onion Rings</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="4.50" data-ps="">4.50</span></span>
+                </div><div class="description"></div><div class="extras"></div></div><div class="item"><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Cheesy Bread Sticks</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="5.50" data-ps="">5.50</span></span>
+                </div><div class="description"></div><div class="extras"></div></div></div></div></div><style>#iEozDEnkHJqV .item{margin-bottom:1.50em;line-height:1.20em;} 
+            #iEozDEnkHJqV .name{font-size:110%;font-family:Caslon FS;text-transform:uppercase;margin:0;line-height:1.20em;font-weight:normal;color:#FFFFFF;letter-spacing:0.20em;} 
+            #iEozDEnkHJqV .icon{vertical-align: baseline;font-size: 110%;line-height:1.20em;}#iEozDEnkHJqV .icon-entry{display: inline-block;vertical-align: text-top;height:1em;width:1em;fill:#FFFFFF; color:#FFFFFF;} 
+            #iEozDEnkHJqV .description{font-size:110%;font-family:Caslon FS;margin:0;line-height:1.20em;color:#FFFFFF;} 
+            #iEozDEnkHJqV .price{font-size:110%;font-family:Caslon FS;margin:0;line-height:1.20em;font-weight:normal;color:#FFFFFF;} 
+            #iEozDEnkHJqV .items{} 
+            #iEozDEnkHJqV .extras{font-size:110%;font-family:Caslon FS;margin:0 auto;color:#FFFFFF;line-height:1.20em;}
+            #iEozDEnkHJqV .mo-name{color:#FFFFFF;font-family:Sacramento;font-size:320%;font-weight:normal;text-transform:none;padding:0px 10px;} 
+            #iEozDEnkHJqV .mo-notes{color:#FFFFFF;font-family:Caslon FS;font-size:110%;} 
+            #iEozDEnkHJqV .mo-content{}</style></div><div class="image select move locked" data-component="shape" style="position: absolute; left: -1.4281%; top: -0.19816%; width: 102.857%; height: 3.08772%;" data-shape="square" id="LRjpkuYtkPSs" data-x="339.609" data-y="272.602" data-ratio="1" data-inch-width="9" data-inch-height="0.44" data-px-width="0" data-px-height="0" data-original-left="-1.4281%" data-original-top="1.75439%" data-original-width="873.352" data-original-height="29.1094" data-custom-ratio="20.774140121932064" data-mstate-locked="{&quot;dragArea&quot;:false,&quot;useResizeObserver&quot;:false,&quot;padding&quot;:{&quot;left&quot;:0,&quot;top&quot;:0,&quot;right&quot;:0,&quot;bottom&quot;:0},&quot;keepRatio&quot;:false,&quot;throttleScale&quot;:0,&quot;throttleDrag&quot;:1,&quot;zoom&quot;:1,&quot;origin&quot;:false,&quot;triggerAblesSimultaneously&quot;:true,&quot;pinchOutside&quot;:false,&quot;hideDefaultLines&quot;:true,&quot;resizable&quot;:{&quot;edge&quot;:[&quot;nw&quot;,&quot;ne&quot;,&quot;n&quot;,&quot;w&quot;,&quot;e&quot;,&quot;sw&quot;,&quot;s&quot;,&quot;se&quot;],&quot;renderDirections&quot;:[&quot;e&quot;,&quot;nw&quot;]},&quot;rotatable&quot;:true,&quot;rotationPosition&quot;:&quot;bottom&quot;,&quot;draggable&quot;:true,&quot;edgeDraggable&quot;:false,&quot;snappable&quot;:true,&quot;className&quot;:&quot;original-elem-LRjpkuYtkPSs&quot;,&quot;selected&quot;:true,&quot;scalable&quot;:false}" data-mstate-frame-locked="{&quot;translate&quot;:[0,0],&quot;scale&quot;:[1,1],&quot;rotate&quot;:0}"><div class="svg-content"><svg width="100%" height="100%" viewBox="0 0 873.36 42.6976" preserveAspectRatio="none"><rect fill="#d12027" stroke="#d12027" stroke-width="6.12412" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="6" y="6" width="861.36" height="30.6976" fill-opacity="1" stroke-opacity="1" data-original-stroke-width="13"></rect></svg></div></div><div data-component="text" class="comp select move" data-font-size="42" style="display: inline-block; margin: 0px; padding: 0px; text-align: center; white-space: nowrap; position: absolute; left: 5.80838%; top: 94.2599%; height: 2.0271%; width: 88.3842%; color: rgb(255, 255, 255); -webkit-transform: none;" id="WnewCPxZRpjS" data-original-top="948.094" data-original-left="47.3438" data-original-width="88.38418%" data-original-height="2.00286%" data-inch-width="7.74" data-inch-height="0.58" data-px-width="0" data-px-height="0" blk-v="1" inl="1" data-original-page="page-1" data-original-page-z-index="1" data-original-transform="none"><div class="txt ql-container ql-disabled" style=""><div class="ql-editor" data-gramm="false"><p style="line-height: 1.3em; font-family: &quot;Futura PT&quot;; font-size: 80%; height: 1.3em;"><span class="case-lw">Consumer Advisory: Consumption of undercooked meat, poultry, eggs, or seafood may increase the risk of food-borne illnesses.</span></p><p style="line-height: 1.3em; font-family: &quot;Futura PT&quot;; font-size: 80%; height: 1.3em;"><span class="case-lw">Alert your server if you have special dietary requirements.</span></p></div><div class="ql-clipboard" tabindex="-1"></div></div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </div><div id="fNrzdCRdOGtH" data-component="menu-object" class="menu-object select move" data-layout="price-name-left" style="position: absolute; left: 51.2527%; top: 16.5711%; width: 44.2279%; -webkit-transform: translate(0px, 40.156px) scale(1, 1) rotate(0deg); height: 462.219px;" data-original-left="435.188px" data-original-top="254.93px" data-original-width="44.22789%" data-original-height="32.99641%" data-original-page="page-1" data-original-page-z-index="1" data-original-transform="none" data-inch-width="3.87" data-inch-height="5.85" data-px-width="279" data-px-height="421" data-mstate="{&quot;translate&quot;:[0,40.156,0,0],&quot;scale&quot;:[1,1],&quot;rotate&quot;:0}"><div class="config">{"styles":{"item":{"margin-bottom":"1.50em","line-height":"1.20em"},"name":{"font-size":"110%","font-family":"Caslon FS","text-transform":"uppercase","margin":"0","line-height":"1.20em","font-weight":"normal","color":"#FFFFFF","letter-spacing":"0.20em"},"description":{"font-size":"110%","font-family":"Caslon FS","margin":"0","line-height":"1.20em","color":"#FFFFFF"},"price":{"font-size":"110%","font-family":"Caslon FS","margin":"0","line-height":"1.20em","font-weight":"normal","color":"#FFFFFF"},"extras":{"font-size":"110%","font-family":"Caslon FS","margin":"0 auto","color":"#FFFFFF","line-height":"1.20em"},"line-height":"1.5em","mo-name":{"color":"#FFFFFF","font-family":"Sacramento","font-size":"320%","font-weight":"normal","text-transform":"none","padding":"0px 10px"},"mo-notes":{"color":"#FFFFFF","font-family":"Caslon FS","font-size":"110%"},"":{"":""},"icon-entry":{"color":"#FFFFFF","fill":"#FFFFFF","display":"inline-block","vertical-align":"text-top","height":"1em","width":"1em"}}}</div>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            <div class="wrapper" style="height: 462.219px; width: 278.628px;"><div class="mo-content"><div class="mo-name">Brick Oven Pizza</div><div class="items"><div class="item "><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Spicy Pizza</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="13.75" data-ps="">13.75</span></span>
+                </div><div class="description" style="height: 26.4px; line-height: 13.2px;">Spicy red sauce, cheese blend, local sausage, mushrooms and pepperoncinis</div><div class="extras"></div></div><div class="item "><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">The King Pizza</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="11.50" data-ps="">11.50</span></span>
+                </div><div class="description" style="height: 26.4px; line-height: 13.2px;">Local sausage, pepperoni, green peppers, mushrooms and onions</div><div class="extras"></div></div><div class="item "><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Buffalo Chicken Pizza</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="12.25" data-ps="">12.25</span></span>
+                </div><div class="description" style="height: 39.6px; line-height: 13.2px;">Creamy buffalo sauce, fresh mozzarella, provolone, house made bruschetta, bleu cheese crumbles, green onions and traditional Buffalo sauce</div><div class="extras"></div></div><div class="item "><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Cheese Lover Pizza</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="15.75" data-ps="">15.75</span></span>
+                </div><div class="description" style="height: 26.4px; line-height: 13.2px;">Ricotta, fresh mozzarella, provolone, classic shredded cheese blend, garlic and olive oil</div><div class="extras"></div></div><div class="item "><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Garden of Eatin'</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="13.75" data-ps="">13.75</span></span>
+                </div><div class="description" style="height: 26.4px; line-height: 13.2px;">Green peppers, mushrooms, onions and cherry tomatoes</div><div class="extras"></div></div><div class="item "><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Meat Lovers Pizza</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="14.75" data-ps="">14.75</span></span>
+                </div><div class="description" style="height: 13.2px; line-height: 13.2px;">Local sausage, pepperoni, bacon and ham</div><div class="extras"></div></div><div class="item "><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Pesto Pizza</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="15.75" data-ps="">15.75</span></span>
+                </div><div class="description" style="height: 13.2px; line-height: 13.2px;">Fresh mozzarella, chicken, bacon and roasted tomatoes</div><div class="extras"></div></div><div class="item "><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Cheese Pizza</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="8.50" data-ps="">8.50</span></span>
+                </div><div class="description" style="height: 13.2px; line-height: 13.2px;">just a regular cheese pizza</div><div class="extras"></div></div></div></div></div><style>#fNrzdCRdOGtH .item{margin-bottom:1.50em;line-height:1.20em;} 
+            #fNrzdCRdOGtH .name{font-size:110%;font-family:Caslon FS;text-transform:uppercase;margin:0;line-height:1.20em;font-weight:normal;color:#FFFFFF;letter-spacing:0.20em;} 
+            #fNrzdCRdOGtH .icon{vertical-align: baseline;font-size: 110%;line-height:1.20em;}#fNrzdCRdOGtH .icon-entry{display: inline-block;vertical-align: text-top;height:1em;width:1em;fill:#FFFFFF; color:#FFFFFF;} 
+            #fNrzdCRdOGtH .description{font-size:110%;font-family:Caslon FS;margin:0;line-height:1.20em;color:#FFFFFF;} 
+            #fNrzdCRdOGtH .price{font-size:110%;font-family:Caslon FS;margin:0;line-height:1.20em;font-weight:normal;color:#FFFFFF;} 
+            #fNrzdCRdOGtH .items{} 
+            #fNrzdCRdOGtH .extras{font-size:110%;font-family:Caslon FS;margin:0 auto;color:#FFFFFF;line-height:1.20em;}
+            #fNrzdCRdOGtH .mo-name{color:#FFFFFF;font-family:Sacramento;font-size:320%;font-weight:normal;text-transform:none;padding:0px 10px;} 
+            #fNrzdCRdOGtH .mo-notes{color:#FFFFFF;font-family:Caslon FS;font-size:110%;} 
+            #fNrzdCRdOGtH .mo-content{}</style></div><div id="SWrbbFVnEbHM" data-component="menu-object" class="menu-object select move fake-in-focus" data-layout="price-name-left" style="position: absolute; left: 51.2556%; top: 71.8956%; width: 44.2252%; -webkit-transform: translate(-0.009px, -44.962px) scale(1, 1) rotate(0deg); height: 136.562px;" data-original-left="425.602px" data-original-top="1093.83px" data-original-width="44.22518%" data-original-height="3.14235%" data-original-page="page-1" data-original-page-z-index="1" data-original-transform="none" data-inch-width="3.87" data-inch-height="1.9" data-px-width="279" data-px-height="137" data-mstate="{&quot;translate&quot;:[-0.009,-44.962,0,0],&quot;scale&quot;:[1,1],&quot;rotate&quot;:0}"><div class="config">{"styles":{"item":{"margin-bottom":"1.50em","line-height":"1.20em"},"name":{"font-size":"110%","font-family":"Caslon FS","text-transform":"uppercase","margin":"0","line-height":"1.20em","font-weight":"normal","color":"#FFFFFF","letter-spacing":"0.20em"},"description":{"font-size":"110%","font-family":"Caslon FS","margin":"0","line-height":"1.20em","color":"#FFFFFF"},"price":{"font-size":"110%","font-family":"Caslon FS","margin":"0","line-height":"1.20em","font-weight":"normal","color":"#FFFFFF"},"extras":{"font-size":"110%","font-family":"Caslon FS","margin":"0 auto","color":"#FFFFFF","line-height":"1.20em"},"line-height":"1.5em","mo-name":{"padding":"0px 10px","font-family":"Sacramento","font-size":"320%","font-weight":"normal","text-transform":"none","color":"#FFFFFF"},"mo-notes":{"color":"#FFFFFF","font-family":"Caslon FS","font-size":"110%"},"":{"":""},"icon-entry":{"color":"#FFFFFF","fill":"#FFFFFF","display":"inline-block","vertical-align":"text-top","height":"1em","width":"1em"}}}</div>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            <div class="wrapper" style="height: 136.562px;"><div class="mo-content"><div class="mo-name">Sides</div><div class="items"><div class="item "><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Garlic Bread</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="1.75" data-ps="">1.75</span></span>
+                </div><div class="description"></div><div class="extras"></div></div><div class="item "><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Breadsticks</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="2.75" data-ps="">2.75</span></span>
+                </div><div class="description"></div><div class="extras"></div></div><div class="item"><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Pesto Breadsticks</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="4.75" data-ps="">4.75</span></span>
+                </div><div class="description"></div><div class="extras"></div></div></div></div></div><style>#SWrbbFVnEbHM .item{margin-bottom:1.50em;line-height:1.20em;} 
+            #SWrbbFVnEbHM .name{font-size:110%;font-family:Caslon FS;text-transform:uppercase;margin:0;line-height:1.20em;font-weight:normal;color:#FFFFFF;letter-spacing:0.20em;} 
+            #SWrbbFVnEbHM .icon{vertical-align: baseline;font-size: 110%;line-height:1.20em;}#SWrbbFVnEbHM .icon-entry{display: inline-block;vertical-align: text-top;height:1em;width:1em;fill:#FFFFFF; color:#FFFFFF;} 
+            #SWrbbFVnEbHM .description{font-size:110%;font-family:Caslon FS;margin:0;line-height:1.20em;color:#FFFFFF;} 
+            #SWrbbFVnEbHM .price{font-size:110%;font-family:Caslon FS;margin:0;line-height:1.20em;font-weight:normal;color:#FFFFFF;} 
+            #SWrbbFVnEbHM .items{} 
+            #SWrbbFVnEbHM .extras{font-size:110%;font-family:Caslon FS;margin:0 auto;color:#FFFFFF;line-height:1.20em;}
+            #SWrbbFVnEbHM .mo-name{padding:0px 10px;font-family:Sacramento;font-size:320%;font-weight:normal;text-transform:none;color:#FFFFFF;} 
+            #SWrbbFVnEbHM .mo-notes{color:#FFFFFF;font-family:Caslon FS;font-size:110%;} 
+            #SWrbbFVnEbHM .mo-content{}</style></div><div id="xqGpQCExomqf" data-component="menu-object" class="menu-object select move fake-in-focus" data-layout="price-name-left" style="position: absolute; left: 0px; top: 0px; width: 44.2223%; -webkit-transform: translate(30.406px, 692.6px) scale(1, 1) rotate(0deg); height: 191.141px; visibility: visible;" data-original-left="103.102px" data-original-top="1127.13px" data-original-width="44.22235%" data-original-height="14.95249%" data-original-page="page-2" data-original-page-z-index="2" data-original-transform="none" data-inch-width="3.87" data-inch-height="2.66" data-px-width="279" data-px-height="191" data-mstate="{&quot;translate&quot;:[30.4059512,692.6,0,0],&quot;scale&quot;:[1,1],&quot;rotate&quot;:0}"><div class="config">{"styles":{"item":{"margin-bottom":"1.50em","line-height":"1.20em"},"name":{"font-size":"110%","font-family":"Caslon FS","text-transform":"uppercase","margin":"0","line-height":"1.20em","font-weight":"normal","color":"#FFFFFF","letter-spacing":"0.20em"},"description":{"font-size":"110%","font-family":"Caslon FS","margin":"0","line-height":"1.20em","color":"#FFFFFF"},"price":{"font-size":"110%","font-family":"Caslon FS","margin":"0","line-height":"1.20em","font-weight":"normal","color":"#FFFFFF"},"extras":{"font-size":"110%","font-family":"Caslon FS","margin":"0 auto","color":"#FFFFFF","line-height":"1.20em"},"line-height":"1.5em","mo-name":{"padding":"0px 10px","font-family":"Sacramento","font-size":"320%","font-weight":"normal","text-transform":"none","color":"#FFFFFF"},"mo-notes":{"color":"#FFFFFF","font-family":"Caslon FS","font-size":"110%"},"":{"":""},"icon-entry":{"color":"#FFFFFF","fill":"#FFFFFF","display":"inline-block","vertical-align":"text-top","height":"1em","width":"1em"}}}</div>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            <div class="wrapper" style="height: 191.141px;"><div class="mo-content"><div class="mo-name">Drinks</div><div class="items"><div class="item"><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Soda</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="2.75" data-ps="">2.75</span></span>
+                </div><div class="description" style="height: 13.2px; line-height: 13.2px;">(cola, diet, lemon-lime, cherry)</div><div class="extras"></div></div><div class="item"><div style="height: 26.4px; line-height: 13.2px;">
+                    <span class="name">Coffee, Decaf, or Specialty Teas</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="1.75" data-ps="">1.75</span></span>
+                </div><div class="description"></div><div class="extras"></div></div><div class="item"><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Bottled Water</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="2.50" data-ps="">2.50</span></span>
+                </div><div class="description"></div><div class="extras"></div></div><div class="item"><div style="height: 13.2px; line-height: 13.2px;">
+                    <span class="name">Fresh Squeezed Lemonade</span>
+                    
+                    <span class="price " style="padding-left: .5em; display: inline; "><span class="price-entry last" style="" data-pv="1.75" data-ps="">1.75</span></span>
+                </div><div class="description"></div><div class="extras"></div></div></div></div></div><style>#xqGpQCExomqf .item{margin-bottom:1.50em;line-height:1.20em;} 
+            #xqGpQCExomqf .name{font-size:110%;font-family:Caslon FS;text-transform:uppercase;margin:0;line-height:1.20em;font-weight:normal;color:#FFFFFF;letter-spacing:0.20em;} 
+            #xqGpQCExomqf .icon{vertical-align: baseline;font-size: 110%;line-height:1.20em;}#xqGpQCExomqf .icon-entry{display: inline-block;vertical-align: text-top;height:1em;width:1em;fill:#FFFFFF; color:#FFFFFF;} 
+            #xqGpQCExomqf .description{font-size:110%;font-family:Caslon FS;margin:0;line-height:1.20em;color:#FFFFFF;} 
+            #xqGpQCExomqf .price{font-size:110%;font-family:Caslon FS;margin:0;line-height:1.20em;font-weight:normal;color:#FFFFFF;} 
+            #xqGpQCExomqf .items{} 
+            #xqGpQCExomqf .extras{font-size:110%;font-family:Caslon FS;margin:0 auto;color:#FFFFFF;line-height:1.20em;}
+            #xqGpQCExomqf .mo-name{padding:0px 10px;font-family:Sacramento;font-size:320%;font-weight:normal;text-transform:none;color:#FFFFFF;} 
+            #xqGpQCExomqf .mo-notes{color:#FFFFFF;font-family:Caslon FS;font-size:110%;} 
+            #xqGpQCExomqf .mo-content{}</style></div><div class="frame select move" data-component="frame" data-type="frame" style="display: table-row; position: absolute; left: 40%; top: 22.076%; width: 297px; height: 185px; -webkit-transform: translate(-240px, -82.6px) scale(1, 1) rotate(0deg);" id="HRWDdtPwCgvr" data-x="40%" data-y="22.07602%" data-custom-ratio="1.6054054054054054" data-mstate="{&quot;translate&quot;:[-240,-82.6,0,0],&quot;scale&quot;:[1,1],&quot;rotate&quot;:0}" data-inch-width="4.13" data-inch-height="2.57" data-px-width="297" data-px-height="185"><div class="img" data-original-bg-img="https://timber.mhmcdn.com/public/member/1263020/eak6ytjmwjki-mozzarella-king-high-resolution-logo-color-on-transparent-background%20(1).png.EAk6YtjMwjki" style="width: 100%; height: 100%; background: url(&quot;https://timber.mhmcdn.com/public/member/1263020/eak6ytjmwjki-mozzarella-king-high-resolution-logo-color-on-transparent-background%20(1).png.EAk6YtjMwjki&quot;) center center / cover;"></div></div></div><div class="page-bars"></div></div>
+                </div>
+            <!-- </div> -->
+        </div>
+        
+        
+        <div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon299106669678"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon205216237639" width="0" height="0" alt="" src="./pizzaMenu_files/0"></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="page3">
+    <p class="footertitle">Mozzarellla King</p>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <ul>
+      <div class="social">
+          <li>
+            <a href="https://google.com" target="link" title="github"> <i class="fa-brands fa-github"></i></a>
+            <a href="#" target="_blank" title="discord"> <i class="fa-brands fa-discord"></i></a>
+            <a href="#" target="_blank" title="instagram"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="#" target="_blank" title="facebook"> <i class="fa-brands fa-facebook"></i></a>
+        </li>
+</div>
+
+<br>
+<br>
+<br>
+<center>
+I started this business in february, 2022. I have been working on it since then.    egestas. Tellus orci ac auctor augue mauris. Sed tempus urna et pharetraPlatea dictumst quisque sagittis purus sit amet volutpat. Senectus et netus et malesuada. Eget aliquet nibh praesent tristique magna sit amet purus. 
+<br>
+</center>
+<br>
+Designed by Peter Wissa
+<br>
+<small>&copy; Copyright 2022, Mozzarella  King. All Rights Reserved</small> 
+</footer> 
+            </body>
+
+
+
+
+
+<!--for testing purposes -->           
+<script>    
+    window.addEventListener('load', function () {  
+    console.log("hello world")
+    });
+</script>
+
+<!––said when a user has javascript disabled––>
+<noscript style="font-size:10vw"><center>pls turn on javascript to be able to use this site functionally</center></noscript>
+
+
+</html>
