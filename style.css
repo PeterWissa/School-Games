@@ -32,9 +32,11 @@ html, body {
 .social {
     margin: -28;
     text-align: center;
-    scale: 250%;
+    scale: 97%;
 }
-
+.socialStyle {
+    font-size: 250%;
+}
 
 
 
