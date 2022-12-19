@@ -70,15 +70,18 @@ html, body {
       float: left;
       display: block;
       color: black;
+     
       text-align: center;
       padding: 25px 42px;
-      text-decoration: none;
+      text-decoration:solid;
       font-size: 17px;
-      position:relative
+      position:relative;
+      font-weight: bold;
   }
 
   .topnav a:hover {
       color: gray;
+      font-weight: bold;
   }
 
   .topnav a::before {
@@ -88,7 +91,7 @@ html, body {
       height: 7px;
       width: 0%;
       background-color: #444;
-  
+      font-weight: bold;
       position:relative;
       top: -15;
       width: 0%;
