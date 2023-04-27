@@ -1,96 +1,53 @@
 <html lang="en">
     <head>
-        <title>Mozzarella King</title>
+        <title>Google Docs</title>
         <link rel="stylesheet" href="style.css">
         <script src="behavior.js"></script>
-        <link rel="icon" type="link" href="https://media.istockphoto.com/id/1082045162/vector/fresh-pizza-with-tomato-cheese-olive-sausage-onion.jpg?s=612x612&w=0&k=20&c=zKrpufmfeSaO-oPow80O8fhGRi65KC9ckcbGonlp7Ec=" />
-        
-    </head>
+        <link rel="icon" type="image/x-icon" href="data:image/png;base64,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">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <content="width=device-width; initial-scale=1; maximum-scale=1; user-scalable=0">
+                </head>
 
-            
+
+
+
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-81P420MQ0B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-81P420MQ0B');
+</script>
+
+    
+
+
+
             <body>
+                <div style="background-image: url('https://www.trustedreviews.com/wp-content/uploads/sites/54/2022/03/How-to-delete-a-blank-Google-Docs4-1.jpg');  height:100%; width:100%; background-repeat: none;"> 
 
-                <div style="background-image:url(https://thumbs.dreamstime.com/b/background-pizza-set-delicious-pizzas-bacon-cheese-mushrooms-top-view-183994608.jpg)"> 
 
                 <!–– the menues in the top bar ––>
             <div class="topnav" id="mytopnav">
-                <a class="active" href="index.html">Home</a>
-                <a href="Menu.html">Menu</a>
-                <a href="Buy.html">Buy</a>
-                <a href="javascript:void(0);" class="icon" onclick="myfunction()">
-            </div>
-</a>
-                    
+                <a class="topBarStyle" href="#home">Home</a>                
+                <a class="topBarStyle" href="apps.html">Apps</a>
+                <a class="topBarStyle" href="games.html">Games</a>
+                <a class="topBarStyle" href="utilities.html">utilities</a>
+                <a class="topBarStyle" href="javascript:void(0);" class="icon" onclick="myfunction()">
 
-<br>
-            <br>
-    
-            <center style="font-size: 3.38vw; color: black; text-decoration:underline;" >
+<style>
+    @media (max-width: 767px) {
+        .hidden-mobile {
+          display: none;
+        }
+    }               
 
-                It's Always Pizza O'Clock            </center>
-           <br>
-             
-            <a href="https://github.com/PeterWissa" target="_blank">
-            <button class="github">
-                Buy
-              </button>
-    </align:right>
-</div>    
-<div class="page2 ">
-    
-    <a style="color:black; font-size: 30px;">
-        <br>
-        <a class="text2" style="text-align: center;">
-most delicous pizza you could ever taste
-                </a>
-        <br> 
-        <br>
-        <br>
-        <br>
-        <br>
-        <center>
-<img src="https://media.istockphoto.com/id/938742222/photo/cheesy-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=D1z4xPCs-qQIZyUqRcHrnsJSJy_YbUD9udOrXpilNpI=" class="codingImage"
-</center>
-<br>
-<br>
-<a style="font-size: 2.6vw;">
-        you can never beat our prices
-</a>
+
+            </style>
 </div>
-
-
-
-
-
-
-
-<footer class="page3">
-    <p class="footertitle">Peter Wissa</p>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <ul>
-      <div class="social">
-          <p>
-            <a class="socialStyle" href="https://google.com" target="link" title="github"> <i class="fa-brands fa-github">&nbsp;</i></a>
-            <a class="socialStyle" href="#" target="_blank" title="discord"> <i class="fa-brands fa-discord">&nbsp;</i></a>
-            <a class="socialStyle" href="#" target="_blank" title="instagram"> <i class="fa-brands fa-instagram">&nbsp;</i></a>
-            <a class="socialStyle" href="#" target="_blank" title="facebook"> <i class="fa-brands fa-facebook">&nbsp;</i></a>
-          </p>
-</div>
-
-
-<br>
-<br>
-<br>
-<center>
-I started this business in february, 2022. I have been working on it since then.    egestas. Tellus orci ac auctor augue mauris. Sed tempus urna et pharetraPlatea dictumst quisque sagittis purus sit amet volutpat. Senectus et netus et malesuada. Eget aliquet nibh praesent tristique magna sit amet purus. 
-<br>
-</center>
-<br>
-Designed by Peter Wissa
-<br>
-<small>&copy; Copyright 2022, Mozzarella  King. All Rights Reserved</small> 
-</footer> 
-            </body>
 
 
 
